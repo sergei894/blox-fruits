@@ -21,6 +21,7 @@ p{
 }
 .div-1 {
     animation: colorChange 5s infinite;
+    display: flex;
 }
 
 @keyframes colorChange {
@@ -31,17 +32,18 @@ p{
         border-color: yellow;
     }
     50% {
-        border-color: green;
+        border-color: rgb(6, 255, 6);
     }
     75% {
         border-color: blue;
     }
     100% {
-        border-color: red;
+        border-color: rgb(255, 0, 242);
     }
 }
 .video{
-    border : 35px solid blue;
+    border : 35px solid rgb(0, 183, 255);
     border-radius: 30pt; 
+    animation: colorChange 5s infinite;
 }
 
